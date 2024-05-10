@@ -1,0 +1,187 @@
+*{
+    overflow-x: hidden;
+}
+
+.main{
+    background-color: #003049;
+    color: whitesmoke;
+    font-size: 20px;
+    margin: 0;
+    padding: 0.4%;
+    text-align: center;
+    width: 100%;
+}
+body{
+    background-color: whitesmoke;
+}
+.main1{
+    background-color: #264653;
+    height: 50px;
+   position: relative;
+    
+    margin: 7px auto auto;
+    width: 100%; 
+}
+.main1 .options {
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    color: aliceblue;
+    font-weight: 900;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.options{
+    overflow: hidden;
+}
+.pop .options{
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    color: aliceblue;
+    font-weight: 900;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.pop{
+    background-color: #fee440;
+    height: 35px;
+    position: relative;
+    margin: 7px auto auto;
+    width: 100%; 
+}
+.pop a{
+    color: black;
+}
+.main1 a {
+    color: whitesmoke;
+}
+
+.footer{
+    background-color: #264653;
+    text-align: center;
+   
+
+}
+.news img{
+    float: right;
+}
+
+
+.menu {
+    overflow-y: hidden;
+    height: 100%;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    transition: font-size 0.3s ease;
+}
+.menuSports {
+    overflow-y: hidden;
+    height: 100%;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    transition: font-size 0.3s ease;
+}
+
+.menu:hover{
+    background-color: hsla(201, 72%, 40%, 0.7);
+    text-shadow: #003049;
+    font-size: 20px;
+}
+.menuSports:hover{
+    background-color: #ffc600;
+    text-shadow: #003049;
+    font-size: 16px;
+}
+a{
+    text-decoration: none;
+    color: blue;
+}
+
+.home {
+    background-color:#3a506b;
+    margin-top: 6%;
+    border: 2px solid #3a506b;
+    width: 10%;
+    height: 5%;
+    position: absolute;
+    top: 7%;
+    right: 0.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.home:hover{
+    background-color: hsla(201, 72%, 40%, 0.7);
+    
+}
+.home:hover a{
+    color: black;
+    font-size: 21px;
+    transition: font-size 0.3s ease;
+}
+.home a{
+    color: whitesmoke;
+}
+.home h2 {
+    font-size: 1em;
+    margin: 0;
+    padding: 5px 10px; 
+}
+.news{
+    margin-top: 1%;
+}
+.pop{
+    overflow: hidden;
+}
+.story{
+    padding: 1%;
+}
+.footer ul {
+    list-style-type: none;
+}
+.footer ul li {
+    line-height: 2;
+}
+.footer li a {
+    color: whitesmoke;
+}
+.footer li a:hover {
+    text-decoration: underline;
+    font-weight: bolder;
+}
+.footerHead{    
+    margin-bottom: 0px;
+    display: block;
+}
+.footerHead a {
+    color: rgb(243, 243, 238);
+    font-size: 22px;
+    width: 100%;
+}
+.footerHead:hover , .footerHead a:hover {
+    background-color: #304f5c;
+}
+html{
+    scroll-behavior: smooth;
+}
+.ipl-heading {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.ipl-logo {
+    margin-right: 10px; 
+}

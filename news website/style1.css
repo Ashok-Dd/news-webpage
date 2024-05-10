@@ -1,0 +1,54 @@
+
+.jenasena{
+    border: 1px solid;
+    padding-left:30PX;
+}
+.pk{
+    float: right;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+.ysrcp{
+    border: 1px solid;
+    padding-left:30PX;
+}
+.ysr{
+    float: right;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+.tdp{
+    border: 1px solid;
+    padding-left:30PX;
+}
+.cbn{
+    float: right;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+.bjp{
+    border: 1px solid;
+    padding-left:30PX;
+}
+.modi{
+    float: right;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+.pop .options{
+    overflow: hidden;
+}
+.results{
+    border: 1px solid black;
+    padding-left: 30px;
+    }
+.rel{
+    float: right;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    padding-top: 10px;
+}
