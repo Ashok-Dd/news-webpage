@@ -14,11 +14,15 @@
 body{
     background-color: whitesmoke;
 }
+.head{
+    padding-bottom: 3%;
+}
 .main1{
     background-color: #264653;
     height: 50px;
    position: relative;
-    
+    display: flex;
+    flex-wrap: wrap;
     margin: 7px auto auto;
     width: 100%; 
 }
@@ -82,6 +86,10 @@ body{
     font-size: 16px;
     transition: font-size 0.3s ease;
 }
+.clicked{
+    background-color: hsla(201, 56%, 48%, 0.7); 
+    font-size: 20px;
+}
 .menuSports {
     overflow-y: hidden;
     height: 100%;
@@ -115,7 +123,7 @@ a{
     width: 10%;
     height: 5%;
     position: absolute;
-    top: 7%;
+    top: 7%; 
     right: 0.5%;
     display: flex;
     justify-content: center;
@@ -184,4 +192,50 @@ html{
 
 .ipl-logo {
     margin-right: 10px; 
+}
+@media only screen and (max-width: 480px)
+{
+    .menu{
+        font-size: 8px;
+        transition: font-size 0.3s ease;
+    }
+    .menu:hover{
+        background-color: hsla(201, 72%, 40%, 0.7);
+        text-shadow: #003049;
+        font-size: 10px;
+    }
+    .clicked{
+        background-color: hsla(201, 56%, 48%, 0.7); 
+        font-size: 10px;
+
+    }
+    .home h2 {
+        font-size: 10px;
+        margin: 0;
+        padding: 5px 10px; 
+    }
+    .home {
+        background-color:#3a506b;
+        margin-top: 6%;
+        border: 2px solid #3a506b;
+        width: 10%;
+        height: 5%;
+        position: absolute;
+        top: 12%; 
+        right: 3%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+    }
+.images{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+
+
 }
