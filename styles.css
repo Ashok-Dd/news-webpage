@@ -200,9 +200,17 @@ html{
         transition: font-size 0.3s ease;
     }
     .menu:hover{
-        background-color: hsla(201, 72%, 40%, 0.7);
-        text-shadow: #003049;
+       
         font-size: 10px;
+    }
+    .menuSports {
+       
+        font-size: 6px;
+        transition: font-size 0.3s ease;
+    }
+    .menuSports:hover{
+       
+        font-size: 8px;
     }
     .clicked{
         background-color: hsla(201, 56%, 48%, 0.7); 
