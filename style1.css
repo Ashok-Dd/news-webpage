@@ -66,5 +66,14 @@
     .results{
         border: 1px solid black;
         padding-left: 0px;
-        }
+    }
+    .tdp{
+        padding-left: 0px;
+    }
+    .ysrcp{
+        padding-left: 0px;
+    }
+    .bjp{
+        padding-left: 0px;
+    }
 }
